@@ -26,6 +26,7 @@ public class Solution {
     //          if(!result.contains(rightFirst)){
     //             result.add(rightFirst);
     //         }
+    
     //     }
     //     return result;
     // }
@@ -49,3 +50,5 @@ public class Solution {
             backtrack(list, str+")", open, close+1, max);
     }
 }
+
+//
